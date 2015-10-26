@@ -1,0 +1,4 @@
+APT::Get::AllowUnauthenticated 1;
+Acquire::http::proxy "http://10.56.12.3:8080";
+Acquire::https::proxy "http://10.56.12.3:8080";
+Acquire::ftp::proxy "http://10.56.12.3:8080";
